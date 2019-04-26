@@ -26,11 +26,19 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+  React JS is a user interface library created by the Facebook team. The FB team needed a powerful UI tool that could receive data "reactively" receive and maniuplate data. If I need a a reusable piece of code for an app, I can simply use React JS to build that line of code and integrate it into my final application. It solves the problem of rapidly changing data: if the DOM needs to update quickly, then React is the tool used to keep up with the data. It does this by storing the DOM, and then when the DOM is updated, it only updates the parts of the DOM that were changed.
+
 - [ ] What does it mean to _think_ in react?
+
+  For lack of a better word, it makes you think reactively about apps as they are being built. Starting with an end goal in mind, an app could be partially coded when a new idea for a feature is brought up, and that feature could be easily coded in at any point. React allows you to think how you want to start building your app, either from top-bottom or bottom-top. 
 
 - [ ] Describe state.
 
+  State is mutable, interactive data that we access using a variety of methods. It is stored data, and we can access it using the virtual DOM.
+
 - [ ] Describe props.
+
+  Props is immutable data, like a data attribute in HTML, that allows for the assignment of other parameters and arguments to functions and classes.
 
 ## Project Set Up
 
